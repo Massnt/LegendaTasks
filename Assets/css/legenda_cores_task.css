@@ -1,0 +1,64 @@
+.color-picker{
+    width:220px
+}
+.color-picker-option{
+    height:25px
+}
+.color-picker-square{
+    display:inline-block;
+    width:18px;
+    height:18px;
+    margin-right:5px;
+    border:1px solid #000
+}
+.color-picker-label{
+    display:inline-block;
+    vertical-align:bottom;
+    padding-bottom:3px
+}
+.color-legend {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background-color: #f0f0f0;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid rgb(0, 0, 0);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    animation: pulse 2s infinite;
+    border-radius: 10px;
+    z-index: 1000;
+}
+
+.btn-legenda {
+    cursor: pointer;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    position: fixed;
+    background-color: #b0b0b0;
+    border-radius: 30px;
+    box-shadow: 0 8px 12px rgba(246, 241, 241, 0.71);
+    width: 40px;
+    height: 40px;
+    bottom: 0;
+    left: 0;
+    transition: background-color 0.3s ease;
+}
+
+.btn-legenda:hover {
+    background-color: #d3d3d3;
+}
+
+.icone {
+    font-size: 25px;
+    font-weight: 100;
+    color: #1a1a1a;
+}
+
+.hide {
+    display: none;
+}
+
